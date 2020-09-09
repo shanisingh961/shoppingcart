@@ -1,0 +1,6 @@
+[09-Sep-2020 14:48:26 Asia/Calcutta] PHP Fatal error:  Call to undefined function file_get_content() in /home/foxymedi/dolphinamplifier.com/shoppingcart/application/controllers/Product.php on line 11
+[09-Sep-2020 14:50:38 Asia/Calcutta] PHP Fatal error:  Call to undefined function file_get_content() in /home/foxymedi/dolphinamplifier.com/shoppingcart/application/controllers/Product.php on line 12
+[09-Sep-2020 14:56:13 Asia/Calcutta] PHP Fatal error:  Call to a member function result() on array in /home/foxymedi/dolphinamplifier.com/shoppingcart/application/views/product_view.php on line 15
+[09-Sep-2020 18:16:38 Asia/Calcutta] PHP Fatal error:  Call to undefined function form_error() in /home/foxymedi/dolphinamplifier.com/shoppingcart/application/views/checkout.php on line 133
+[09-Sep-2020 20:40:58 Asia/Calcutta] PHP Fatal error:  Call to a member function insertCustomer() on null in /home/foxymedi/dolphinamplifier.com/shoppingcart/application/controllers/Product.php on line 80
+[09-Sep-2020 21:03:21 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/foxymedi/dolphinamplifier.com/shoppingcart/application/views/order-success.php on line 17

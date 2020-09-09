@@ -1,0 +1,125 @@
+
+	    .minicart {
+position: absolute;
+    top: 10px;
+    display: none;
+    left: -100px;
+    z-index: 10;
+   
+    width: 288px;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 30px 130px -8px rgba(0, 0, 0, 0.25);
+}
+.itmqty{
+    width:70px;
+}
+.total-shopping-cart {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background-color: #0de6fc;
+    position: absolute;
+    top: -32px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    right: 3px;
+}
+.hidden{display:none;}
+.show-cart-btn:hover > .minicart {
+    display:block;
+}
+.show-cart-btn {
+    position:relative;
+}
+.minicart .checkoutbtn {
+  margin-top: 20px;
+  width: 100%;
+  height: 43px;
+  font-weight: 600;
+  background: white;
+  border: 2px solid #000;
+  outline: none;
+}
+.minicart .checkoutbtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+}
+
+.minicart--item-container {
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+.minicart hr {
+  margin-bottom: 20px;
+}
+
+.minicart--item {
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+}
+.minicart--item > * {
+  margin-bottom: 5px;
+}
+.minicart--item .title {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.minicart--item .material {
+  font-size: 0.8em;
+}
+.minicart--item .size {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+.minicart--item .price {
+  margin-bottom: 10px;
+}
+.minicart--item .remove {
+  font-size: 0.6em;
+}
+
+.minicart--subtotal {
+  margin: 20px 0;
+}
+
+.minicart--subtotal-title {
+  float: left;
+}
+
+.minicart--subtotal-amount {
+  float: right;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.product_image img{width: 100%;
+    height: auto;}
+.thumbnail img{width: auto;
+    height: 250px;}
+.thumbnail{
+     text-align:center;
+     padding:15px;
+     overflow:hidden;
+    }
+    .ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.placeholder {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background: #D8D8D8;
+}
